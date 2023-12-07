@@ -1,0 +1,2071 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Emoter
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: -1489447753, guid: 21fe281538940584e84b6d5eedb3525e, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emoterName
+    value: Emoter
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: queueProcessor
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lipsyncEmphasisChance
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: lipsyncEmphasisEmotes.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: repeaterEmotes.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: randomEmotes.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.name
+    value: emote 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].name
+    value: component 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].controlType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].lipsyncControlType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].emoteControlType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].eyesControlType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].durationDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].durationOn
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].durationHold
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].durationOff
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].isSmoothDisable
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].isPersistent
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].expressionType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].easing
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].expressionHandler
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].isAnimatorControlled
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].useOffset
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].useOffsetFollow
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].inspFoldout
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].isBonePreviewUpdated
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].frac
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.components.Array.data[0].directionType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].bone
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].baseTform.pos.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].baseTform.pos.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].baseTform.pos.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].baseTform.rot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].baseTform.rot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].baseTform.rot.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].baseTform.rot.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].baseTform.scale.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].baseTform.scale.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].baseTform.scale.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].startTform.pos.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].startTform.pos.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].startTform.pos.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].startTform.rot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].startTform.rot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].startTform.rot.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].startTform.rot.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].startTform.scale.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].startTform.scale.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].startTform.scale.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].endTform.pos.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].endTform.pos.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].endTform.pos.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].endTform.rot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].endTform.rot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].endTform.rot.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].endTform.rot.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].endTform.scale.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].endTform.scale.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].endTform.scale.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].fracPos
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].fracRot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].fracScl
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].inspIsSetStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].inspIsSetEnd
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].umaUepProxy
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].uepAmount
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].smr
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].blendIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].minShape
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].maxShape
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].eyeGizmo
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].eventSender
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].animator
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].isTriggerParameterBiDirectional
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].eventIdentityName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].onState
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].display2dImage
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].isRestNull
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].spriteRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].sprites.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].uguiRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].textureRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].materialIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].backupTextures.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].textures.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].materialRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.controllerVars.Array.data[0].materials.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.inspFoldout
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.previewDisplayMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].expData.collectionExpand
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].isRandomEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].isLipsyncEmphasisEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].isRepeaterEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].repeaterDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].startDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].isPersistent
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].isHoldVariationExempt
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].isAlwaysEmphasisEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].hasBeenFired
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[0].frac
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.name
+    value: emote 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].name
+    value: component 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].controlType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].lipsyncControlType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].emoteControlType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].eyesControlType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].durationDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].durationOn
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].durationHold
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].durationOff
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].isSmoothDisable
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].isPersistent
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].expressionType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].easing
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].expressionHandler
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].isAnimatorControlled
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].useOffset
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].useOffsetFollow
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].inspFoldout
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].isBonePreviewUpdated
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].frac
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.components.Array.data[0].directionType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].bone
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].baseTform.pos.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].baseTform.pos.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].baseTform.pos.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].baseTform.rot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].baseTform.rot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].baseTform.rot.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].baseTform.rot.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].baseTform.scale.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].baseTform.scale.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].baseTform.scale.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].startTform.pos.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].startTform.pos.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].startTform.pos.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].startTform.rot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].startTform.rot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].startTform.rot.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].startTform.rot.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].startTform.scale.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].startTform.scale.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].startTform.scale.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].endTform.pos.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].endTform.pos.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].endTform.pos.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].endTform.rot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].endTform.rot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].endTform.rot.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].endTform.rot.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].endTform.scale.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].endTform.scale.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].endTform.scale.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].fracPos
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].fracRot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].fracScl
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].inspIsSetStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].inspIsSetEnd
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].umaUepProxy
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].uepAmount
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].smr
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].blendIndex
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].minShape
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].maxShape
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].eyeGizmo
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].eventSender
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].animator
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].isTriggerParameterBiDirectional
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].eventIdentityName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].onState
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].display2dImage
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].isRestNull
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].spriteRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].sprites.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].uguiRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].textureRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].materialIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].backupTextures.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].textures.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].materialRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.controllerVars.Array.data[0].materials.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.inspFoldout
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.previewDisplayMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].expData.collectionExpand
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].isRandomEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].isLipsyncEmphasisEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].isRepeaterEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].repeaterDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].startDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].isPersistent
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].isHoldVariationExempt
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].isAlwaysEmphasisEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].hasBeenFired
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[1].frac
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.name
+    value: emote 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].name
+    value: component 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].controlType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].lipsyncControlType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].emoteControlType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].eyesControlType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].durationDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].durationOn
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].durationHold
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].durationOff
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].isSmoothDisable
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].isPersistent
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].expressionType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].easing
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].expressionHandler
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].isAnimatorControlled
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].useOffset
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].useOffsetFollow
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].inspFoldout
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].isBonePreviewUpdated
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].frac
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.components.Array.data[0].directionType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].bone
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].baseTform.pos.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].baseTform.pos.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].baseTform.pos.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].baseTform.rot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].baseTform.rot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].baseTform.rot.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].baseTform.rot.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].baseTform.scale.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].baseTform.scale.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].baseTform.scale.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].startTform.pos.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].startTform.pos.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].startTform.pos.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].startTform.rot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].startTform.rot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].startTform.rot.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].startTform.rot.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].startTform.scale.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].startTform.scale.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].startTform.scale.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].endTform.pos.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].endTform.pos.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].endTform.pos.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].endTform.rot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].endTform.rot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].endTform.rot.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].endTform.rot.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].endTform.scale.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].endTform.scale.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].endTform.scale.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].fracPos
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].fracRot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].fracScl
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].inspIsSetStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].inspIsSetEnd
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].umaUepProxy
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].uepAmount
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].smr
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].blendIndex
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].minShape
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].maxShape
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].eyeGizmo
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].eventSender
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].animator
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].isTriggerParameterBiDirectional
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].eventIdentityName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].onState
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].display2dImage
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].isRestNull
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].spriteRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].sprites.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].uguiRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].textureRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].materialIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].backupTextures.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].textures.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].materialRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.controllerVars.Array.data[0].materials.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.inspFoldout
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.previewDisplayMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].expData.collectionExpand
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].isRandomEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].isLipsyncEmphasisEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].isRepeaterEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].repeaterDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].startDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].isPersistent
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].isHoldVariationExempt
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].isAlwaysEmphasisEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].hasBeenFired
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[2].frac
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.name
+    value: emote 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].name
+    value: component 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].controlType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].lipsyncControlType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].emoteControlType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].eyesControlType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].durationDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].durationOn
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].durationHold
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].durationOff
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].isSmoothDisable
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].isPersistent
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].expressionType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].easing
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].expressionHandler
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].isAnimatorControlled
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].useOffset
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].useOffsetFollow
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].inspFoldout
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].isBonePreviewUpdated
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].frac
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.components.Array.data[0].directionType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].bone
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].baseTform.pos.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].baseTform.pos.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].baseTform.pos.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].baseTform.rot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].baseTform.rot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].baseTform.rot.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].baseTform.rot.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].baseTform.scale.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].baseTform.scale.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].baseTform.scale.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].startTform.pos.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].startTform.pos.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].startTform.pos.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].startTform.rot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].startTform.rot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].startTform.rot.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].startTform.rot.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].startTform.scale.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].startTform.scale.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].startTform.scale.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].endTform.pos.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].endTform.pos.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].endTform.pos.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].endTform.rot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].endTform.rot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].endTform.rot.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].endTform.rot.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].endTform.scale.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].endTform.scale.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].endTform.scale.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].fracPos
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].fracRot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].fracScl
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].inspIsSetStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].inspIsSetEnd
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].umaUepProxy
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].uepAmount
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].smr
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].blendIndex
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].minShape
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].maxShape
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].eyeGizmo
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].eventSender
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].animator
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].isTriggerParameterBiDirectional
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].eventIdentityName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].onState
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].display2dImage
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].isRestNull
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].spriteRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].sprites.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].uguiRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].textureRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].materialIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].backupTextures.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].textures.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].materialRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.controllerVars.Array.data[0].materials.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.inspFoldout
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.previewDisplayMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].expData.collectionExpand
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].isRandomEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].isLipsyncEmphasisEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].isRepeaterEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].repeaterDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].startDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].isPersistent
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].isHoldVariationExempt
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].isAlwaysEmphasisEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].hasBeenFired
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[3].frac
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.name
+    value: emote 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].name
+    value: component 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].controlType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].lipsyncControlType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].emoteControlType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].eyesControlType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].durationDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].durationOn
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].durationHold
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].durationOff
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].isSmoothDisable
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].isPersistent
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].expressionType
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].easing
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].expressionHandler
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].isAnimatorControlled
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].useOffset
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].useOffsetFollow
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].inspFoldout
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].isBonePreviewUpdated
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].frac
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.components.Array.data[0].directionType
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.size
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].bone
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].baseTform.pos.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].baseTform.pos.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].baseTform.pos.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].baseTform.rot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].baseTform.rot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].baseTform.rot.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].baseTform.rot.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].baseTform.scale.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].baseTform.scale.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].baseTform.scale.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].startTform.pos.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].startTform.pos.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].startTform.pos.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].startTform.rot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].startTform.rot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].startTform.rot.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].startTform.rot.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].startTform.scale.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].startTform.scale.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].startTform.scale.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].endTform.pos.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].endTform.pos.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].endTform.pos.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].endTform.rot.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].endTform.rot.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].endTform.rot.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].endTform.rot.w
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].endTform.scale.x
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].endTform.scale.y
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].endTform.scale.z
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].fracPos
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].fracRot
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].fracScl
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].inspIsSetStart
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].inspIsSetEnd
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].umaUepProxy
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].uepAmount
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].smr
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].blendIndex
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].minShape
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].maxShape
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].eyeGizmo
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].eventSender
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].animator
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].isTriggerParameterBiDirectional
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].eventIdentityName
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].onState
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].display2dImage
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].isRestNull
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].spriteRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].sprites.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].uguiRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].textureRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].materialIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].backupTextures.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].textures.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].materialRenderer
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.controllerVars.Array.data[0].materials.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.inspFoldout
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.previewDisplayMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].expData.collectionExpand
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].isRandomEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].isLipsyncEmphasisEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].isRepeaterEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].repeaterDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].startDelay
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].isPersistent
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].isHoldVariationExempt
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].isAlwaysEmphasisEmote
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].hasBeenFired
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: emotes.Array.data[4].frac
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: useRandomEmotes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: isChancePerEmote
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: numRandomEmotesPerCycle
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: numRandomEmphasizersPerCycle
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: randomEmoteMinTimer
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: randomEmoteMaxTimer
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: randomChance
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: useRandomFrac
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: randomFracBias
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: useRandomHoldDuration
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: randomHoldDurationMin
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: randomHoldDurationMax
+    value: 0.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: configReady
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: warnOnNullRefs
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspSalsaLinked
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspStateFoldoutProcessing
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspStateFoldoutSettings
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspStateFoldoutEmotes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: inspCollectionDisplayMode
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

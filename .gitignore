@@ -25,8 +25,9 @@ TestResults.xml
 *.mp3
 *.wav
 *.anim
-.Assets/DANCE/
-.Assets/HANA_Tool/
-.Assets/MMD4Mecanim/
-.Assets/Plugins/
-.Assets/AddOns/
+Assets/DANCE/
+Assets/MMD4Mecanim/
+Assets/Plugins/
+Assets/AddOns/
+Assets/Takes/
+Assets/Models/props/mic/source/
