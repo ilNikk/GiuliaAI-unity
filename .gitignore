@@ -20,3 +20,12 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+*.meta
+*.mp3
+*.wav
+*.anim
+/Assests/DANCE/
+/Assests/HANA_Tool/
+/Assests/MMD4Mecanim/
+/Assests/Plugins/
