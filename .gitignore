@@ -25,8 +25,8 @@ TestResults.xml
 *.mp3
 *.wav
 *.anim
-/Assests/DANCE/
-/Assests/HANA_Tool/
-/Assests/MMD4Mecanim/
-/Assests/Plugins/
-/Assests/AddOns/
+.Assets/DANCE/
+.Assets/HANA_Tool/
+.Assets/MMD4Mecanim/
+.Assets/Plugins/
+.Assets/AddOns/
