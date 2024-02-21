@@ -11,7 +11,7 @@ Unity version 2023.2.8f1
 - NDAudio
 
 ### Todo
-- [] TBD
+- [ ] TBD
 
 ### Roadmap
-- [] TBD
+- [ ] TBD
